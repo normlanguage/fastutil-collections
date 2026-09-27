@@ -1,0 +1,21 @@
+import fastutil.collections.IntArrayList
+import fastutil.collections.IntOpenHashSet
+import fastutil.collections.intArrayListNew
+import fastutil.collections.intOpenHashSetNew
+
+main() {
+  IntArrayList values = intArrayListNew()
+  values.add(3)
+  values.add(7)
+  values.add(3)
+  IntOpenHashSet unique = intOpenHashSetNew()
+  for Integer? number : values {
+    if number != null { unique.add(number) }
+  }
+  printLine(values.size())
+  printLine(unique.size())
+}
+
+Module module() {
+  module(dependencies: [dependency(repository: "github", name: "fastutil.collections", version: 2)])
+}
