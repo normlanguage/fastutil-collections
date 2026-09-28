@@ -1,0 +1,7 @@
+Module module() {
+  return module(
+    name: "sample.fastutil.collections",
+    version: 1,
+    dependencies: [dependency(repository: "github", name: "fastutil.collections", version: 3)]
+  )
+}

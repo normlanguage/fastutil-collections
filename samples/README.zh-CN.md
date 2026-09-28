@@ -19,4 +19,4 @@ norm run samples/hello.norm
 2
 ```
 
-API 入口：[module.norm](../fastutil/collections/module.norm) 列出公开的 `IntArrayList` 和 `IntOpenHashSet`。`Main.norm` 仍是该适配器自身的集成入口。
+API 入口：[module.norm](../fastutil/collections/module.norm) 列出公开的 `IntArrayList` 和 `IntOpenHashSet`。[适配器验收示例](../examples/sample/fastutil/collections/Main.norm)覆盖更多绑定行为。

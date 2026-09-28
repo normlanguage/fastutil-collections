@@ -1,7 +1,7 @@
 Module module() {
   return module(
     name: "fastutil.collections",
-    version: 2,
+    version: 3,
     binding: jarBinding(
       target: mavenJar(
         group: "it.unimi.dsi",

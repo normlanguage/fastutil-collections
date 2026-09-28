@@ -1,4 +1,15 @@
-package fastutil.collections
+package sample.fastutil.collections
+
+import fastutil.collections.IntArrayList
+import fastutil.collections.intArrayListNew
+import fastutil.collections.IntOpenHashSet
+import fastutil.collections.intOpenHashSetNew
+import fastutil.collections.Int2ObjectOpenHashMap
+import fastutil.collections.int2ObjectOpenHashMapNew
+import fastutil.collections.Object2IntOpenHashMap
+import fastutil.collections.object2IntOpenHashMapNew
+import fastutil.collections.Long2ObjectOpenHashMap
+import fastutil.collections.long2ObjectOpenHashMapNew
 
 Void main() {
   IntArrayList values = intArrayListNew()

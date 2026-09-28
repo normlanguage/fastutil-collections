@@ -19,4 +19,4 @@ Expected output:
 2
 ```
 
-API reference: [module.norm](../fastutil/collections/module.norm) lists the exposed `IntArrayList` and `IntOpenHashSet`. The module's `Main.norm` remains its own adapter integration entry point.
+API reference: [module.norm](../fastutil/collections/module.norm) lists the exposed `IntArrayList` and `IntOpenHashSet`. The [adapter acceptance example](../examples/sample/fastutil/collections/Main.norm) exercises additional binding behavior.

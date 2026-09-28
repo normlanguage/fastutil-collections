@@ -17,5 +17,5 @@ main() {
 }
 
 Module module() {
-  module(dependencies: [dependency(repository: "github", name: "fastutil.collections", version: 2)])
+  module(dependencies: [dependency(repository: "github", name: "fastutil.collections", version: 3)])
 }
