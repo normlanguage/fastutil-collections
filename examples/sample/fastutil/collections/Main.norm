@@ -18,9 +18,6 @@ Void main() {
   values.add(arg0: 1, arg1: 7)
   values.set(arg0: 1, arg1: 8)
   Integer total = 0
-  for Integer? value : values {
-    total = total + (value ?? 0)
-  }
   printLine(total)
 
   IntOpenHashSet unique = intOpenHashSetNew()
