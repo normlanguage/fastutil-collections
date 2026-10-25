@@ -28,15 +28,15 @@ Void main() {
   unique.add(5)
   printLine(unique.size())
 
-  Int2ObjectOpenHashMap<String?> labels = int2ObjectOpenHashMapNew<String>()
+  Int2ObjectOpenHashMap<String> labels = int2ObjectOpenHashMapNew<String>()
   labels.put(arg0: 42, arg1: "answer")
   printLine(labels.get(42) ?? "missing")
 
-  Object2IntOpenHashMap<String?> counts = object2IntOpenHashMapNew<String>()
+  Object2IntOpenHashMap<String> counts = object2IntOpenHashMapNew<String>()
   counts.addTo(arg0: "hits", arg1: 3)
   printLine(counts.getInt("hits"))
 
-  Long2ObjectOpenHashMap<String?> ids = long2ObjectOpenHashMapNew<String>()
+  Long2ObjectOpenHashMap<String> ids = long2ObjectOpenHashMapNew<String>()
   ids.put(arg0: 1000000000, arg1: "large")
   printLine(ids.get(1000000000) ?? "missing")
 }
