@@ -7,3 +7,5 @@
 独立 NAR 消费、primitive collections、泛型映射、普通 Norm 迭代协议和共享宿主 identity 由 `FastutilBindingIntegrationTest` 验收。完整 census 与未支持原因位于 NAR 的 `binding/java-api.json`。
 
 [可运行示例](samples/README.zh-CN.md) 展示如何作为外部 Norm 依赖使用本库。
+
+[许可证](LICENSE)
