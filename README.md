@@ -7,3 +7,5 @@ The adapter declaration and runnable example are in `fastutil/collections`. It p
 `FastutilBindingIntegrationTest` covers standalone NAR consumption, primitive collections, generic maps, ordinary Norm iteration, and shared host identity. The complete API census and reasons for unsupported APIs are in the NAR's `binding/java-api.json`.
 
 [Runnable samples](samples/README.md) demonstrate the library as an external Norm dependency.
+
+[License](LICENSE)

@@ -1,7 +1,7 @@
 Module module() {
   return module(
     name: "fastutil.collections",
-    version: 3,
+    version: 4,
     exports: ["IntArrayList", "IntOpenHashSet", "Int2ObjectOpenHashMap", "Object2IntOpenHashMap", "Long2ObjectOpenHashMap"],
     binding: jarBinding(
       target: mavenJar(

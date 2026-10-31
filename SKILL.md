@@ -1,6 +1,6 @@
 # fastutil.collections Skill
 
-Use this skill to work with Norm module `fastutil.collections` version 3. Use only declarations listed below.
+Use this skill to work with Norm module `fastutil.collections` version 4. Use only declarations listed below.
 
 ## `fastutil.collections`
 
